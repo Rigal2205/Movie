@@ -1,0 +1,23 @@
+.card{
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    padding-top:0%;
+    margin: 15px;
+}
+img{
+    transition: transform .2s;
+    width: fit-content;
+    height:fit-content;
+    margin:0 auto;
+    background-color: rgb(173, 173, 237);
+    border-radius: 10px;
+    border: 1px solid black;
+}
+img:hover{
+    transform:scale(1.2);
+}
+
+.card-body{
+    align-items: center;
+}
